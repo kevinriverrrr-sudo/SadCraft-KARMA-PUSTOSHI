@@ -1,0 +1,54 @@
+name: SadEconomy
+version: 1.0.0
+main: sadcraft\economy\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore]
+description: "Экономика сервера SadCraft — валюта Скрап, магазин, транзакции"
+
+commands:
+  balance:
+    description: "Проверить баланс"
+    usage: "/balance [player]"
+    aliases: ["bal", "money"]
+    permission: sadcraft.balance
+  pay:
+    description: "Перевести деньги игроку"
+    usage: "/pay <player> <amount>"
+    permission: sadcraft.pay
+  shop:
+    description: "Открыть магазин"
+    usage: "/shop [page]"
+    permission: sadcraft.shop
+  sell:
+    description: "Продать предмет в руке"
+    usage: "/sell"
+    permission: sadcraft.sell
+  sellall:
+    description: "Продать все предметы из инвентаря"
+    usage: "/sellall"
+    permission: sadcraft.sellall
+  eco:
+    description: "Администрирование экономики"
+    usage: "/eco <give|take|set|reset> <player> <amount>"
+    permission: sadcraft.eco.admin
+
+permissions:
+  sadcraft.balance:
+    default: true
+    description: "Проверка баланса"
+  sadcraft.pay:
+    default: true
+    description: "Перевод денег"
+  sadcraft.shop:
+    default: true
+    description: "Магазин"
+  sadcraft.sell:
+    default: true
+    description: "Продажа предметов"
+  sadcraft.sellall:
+    default: true
+    description: "Продажа всех предметов"
+  sadcraft.eco.admin:
+    default: op
+    description: "Управление экономикой"

@@ -1,0 +1,113 @@
+# Конфигурация SadNPC
+
+# Автоспавн NPC
+auto_spawn:
+  enabled: true
+  # Интервал проверки (секунды)
+  check_interval: 60
+  # Максимум NPC каждого тира в мире
+  max_per_tier: 5
+  # Радиус от зон для спавна
+  spawn_radius: 50
+
+# Настройки NPC по тирам
+npc_settings:
+  1:
+    name: "Бродяга"
+    entity_type: "zombie"
+    health: 20
+    damage: 2
+    speed: 0.8
+    reward_scrap: 10
+    reward_karma: 5
+    loot_count: 3
+    loot_table:
+      - "cobblestone:0:16:0.8"
+      - "bread:0:4:0.6"
+      - "wooden_sword:0:1:0.3"
+      - "leather_helmet:0:1:0.2"
+      - "iron_ingot:0:2:0.1"
+    respawn_time: 120
+  2:
+    name: "Разбойник"
+    entity_type: "skeleton"
+    health: 40
+    damage: 5
+    speed: 1.0
+    reward_scrap: 30
+    reward_karma: 8
+    loot_count: 4
+    loot_table:
+      - "iron_sword:0:1:0.5"
+      - "iron_helmet:0:1:0.4"
+      - "iron_chestplate:0:1:0.3"
+      - "golden_apple:0:2:0.3"
+      - "iron_ingot:0:8:0.5"
+      - "bow:0:1:0.4"
+      - "arrow:0:16:0.6"
+    respawn_time: 180
+  3:
+    name: "Рыцарь"
+    entity_type: "wither_skeleton"
+    health: 80
+    damage: 8
+    speed: 1.2
+    reward_scrap: 80
+    reward_karma: 10
+    loot_count: 5
+    loot_table:
+      - "diamond_sword:0:1:0.3"
+      - "diamond_helmet:0:1:0.2"
+      - "diamond_chestplate:0:1:0.15"
+      - "ender_pearl:0:4:0.4"
+      - "golden_apple:0:4:0.5"
+      - "obsidian:0:8:0.4"
+      - "redstone:0:16:0.5"
+    respawn_time: 300
+  4:
+    name: "Демон"
+    entity_type: "vindicator"
+    health: 150
+    damage: 14
+    speed: 1.4
+    reward_scrap: 200
+    reward_karma: 12
+    loot_count: 6
+    loot_table:
+      - "diamond_sword:0:1:0.5"
+      - "diamond_chestplate:0:1:0.3"
+      - "diamond_leggings:0:1:0.25"
+      - "diamond_boots:0:1:0.25"
+      - "enchanted_golden_apple:0:1:0.1"
+      - "tnt:0:8:0.4"
+      - "diamond:0:8:0.5"
+      - "emerald:0:16:0.4"
+    respawn_time: 600
+  5:
+    name: "ВЛАДЫКА"
+    entity_type: "enderman"
+    health: 300
+    damage: 22
+    speed: 1.6
+    reward_scrap: 500
+    reward_karma: 15
+    loot_count: 8
+    loot_table:
+      - "netherite_sword:0:1:0.2"
+      - "netherite_helmet:0:1:0.15"
+      - "netherite_chestplate:0:1:0.1"
+      - "netherite_leggings:0:1:0.1"
+      - "netherite_boots:0:1:0.1"
+      - "enchanted_golden_apple:0:3:0.3"
+      - "netherite_ingot:0:4:0.2"
+      - "elytra:0:1:0.05"
+      - "totem_of_undying:0:1:0.1"
+      - "diamond_block:0:4:0.3"
+      - "nether_star:0:1:0.03"
+    respawn_time: 1200
+
+# Сообщения
+messages:
+  npc_kill: "[NPC] Ты убил {name}! Награда: {scrap}S, Карма: +{karma}"
+  npc_kill_broadcast: "[NPC] {player} убил {name} тира {tier}!"
+  loot_drop: "[NPC] Лут: {items}"

@@ -1,0 +1,38 @@
+name: SadCore
+version: 1.0.0
+main: sadcraft\core\Main
+api: 5.0.0
+author: SadCraft
+description: "Ядро сервера SadCraft — КАРМА ПУСТОШИ"
+
+commands:
+  sadcraft:
+    description: "Главная команда SadCraft"
+    usage: "/sadcraft <info|reload|coords|karma>"
+    permission: sadcraft.admin
+  coords:
+    description: "Показать текущие координаты лут-зон"
+    usage: "/coords"
+    permission: sadcraft.coords
+  karma:
+    description: "Проверить свою карму"
+    usage: "/karma [player]"
+    permission: sadcraft.karma
+  randomtp:
+    description: "Телепортироваться в случайную точку"
+    usage: "/randomtp"
+    permission: sadcraft.randomtp
+
+permissions:
+  sadcraft.admin:
+    default: op
+    description: "Администрирование SadCraft"
+  sadcraft.coords:
+    default: true
+    description: "Координаты лут-зон"
+  sadcraft.karma:
+    default: true
+    description: "Проверка кармы"
+  sadcraft.randomtp:
+    default: true
+    description: "Случайный телепорт"

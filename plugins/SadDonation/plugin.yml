@@ -1,0 +1,48 @@
+name: SadDonation
+version: 1.0.0
+main: sadcraft\donation\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadEconomy]
+description: "Система донатов и китов SadCraft"
+
+commands:
+  kit:
+    description: "Получить набор"
+    usage: "/kit <name>"
+    permission: sadcraft.kit
+  kits:
+    description: "Список наборов"
+    usage: "/kits"
+    permission: sadcraft.kits
+  donate:
+    description: "Меню доната"
+    usage: "/donate [kit]"
+    permission: sadcraft.donate
+  donshop:
+    description: "Донат-магазин"
+    usage: "/donshop"
+    permission: sadcraft.donate.admin
+
+permissions:
+  sadcraft.kit:
+    default: true
+    description: "Использование китов"
+  sadcraft.kits:
+    default: true
+    description: "Список китов"
+  sadcraft.donate:
+    default: true
+    description: "Меню доната"
+  sadcraft.donate.admin:
+    default: op
+    description: "Управление донатами"
+  sadcraft.kit.vip:
+    default: false
+    description: "VIP кит"
+  sadcraft.kit.premium:
+    default: false
+    description: "Premium кит"
+  sadcraft.kit.legend:
+    default: false
+    description: "Legend кит"

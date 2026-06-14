@@ -1,0 +1,24 @@
+name: SadCraft
+version: 1.0.0
+main: sadcraft\craft\Main
+api: 5.0.0
+author: SadCraft
+description: "Кастомные рецепты и уникальные предметы SadCraft"
+
+commands:
+  recipes:
+    description: "Список кастомных рецептов"
+    usage: "/recipes [page]"
+    permission: sadcraft.craft
+  givemagic:
+    description: "Выдать магический предмет"
+    usage: "/givemagic <item> [player]"
+    permission: sadcraft.craft.admin
+
+permissions:
+  sadcraft.craft:
+    default: true
+    description: "Кастомные рецепты"
+  sadcraft.craft.admin:
+    default: op
+    description: "Администрирование"

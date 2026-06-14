@@ -1,0 +1,29 @@
+name: SadDungeons
+version: 1.0.0
+main: sadcraft\dungeons\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore, SadEconomy, SadNPC]
+description: "Процедурные подземелья SadCraft — лут, ловушки, боссы"
+
+commands:
+  dungeon:
+    description: "Войти в подземелье"
+    usage: "/dungeon <tier 1-5>"
+    permission: sadcraft.dungeon
+  dungeonleave:
+    description: "Покинуть подземелье"
+    usage: "/dungeonleave"
+    permission: sadcraft.dungeon
+  dungeoninfo:
+    description: "Информация о подземельях"
+    usage: "/dungeoninfo"
+    permission: sadcraft.dungeon
+
+permissions:
+  sadcraft.dungeon:
+    default: true
+    description: "Подземелья"
+  sadcraft.dungeon.admin:
+    default: op
+    description: "Управление подземельями"

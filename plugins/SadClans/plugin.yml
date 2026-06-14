@@ -1,0 +1,61 @@
+name: SadClans
+version: 1.0.0
+main: sadcraft\clans\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore, SadEconomy]
+description: "Система кланов SadCraft — войны, территория, клановая карма, альянсы"
+
+commands:
+  clan:
+    description: "Главная команда клана"
+    usage: "/clan <create|disband|invite|kick|leave|info|list|promote|demote|war|ally|enemy>"
+    permission: sadcraft.clan
+  clancreate:
+    description: "Создать клан"
+    usage: "/clancreate <name> <tag>"
+    permission: sadcraft.clan
+  clandisband:
+    description: "Распустить клан"
+    usage: "/clandisband"
+    permission: sadcraft.clan
+  claninvite:
+    description: "Пригласить игрока в клан"
+    usage: "/claninvite <player>"
+    permission: sadcraft.clan
+  clankick:
+    description: "Выгнать из клана"
+    usage: "/clankick <player>"
+    permission: sadcraft.clan
+  clanleave:
+    description: "Покинуть клан"
+    usage: "/clanleave"
+    permission: sadcraft.clan
+  claninfo:
+    description: "Информация о клане"
+    usage: "/claninfo [clan]"
+    permission: sadcraft.clan
+  clanlist:
+    description: "Список кланов"
+    usage: "/clanlist"
+    permission: sadcraft.clan
+  clanwar:
+    description: "Объявить войну"
+    usage: "/clanwar <clan>"
+    permission: sadcraft.clan.leader
+  clanally:
+    description: "Предложить альянс"
+    usage: "/clanally <clan>"
+    permission: sadcraft.clan.leader
+  clanbank:
+    description: "Банк клана"
+    usage: "/clanbank <deposit|withdraw> <amount>"
+    permission: sadcraft.clan
+
+permissions:
+  sadcraft.clan:
+    default: true
+    description: "Система кланов"
+  sadcraft.clan.leader:
+    default: false
+    description: "Лидер клана"

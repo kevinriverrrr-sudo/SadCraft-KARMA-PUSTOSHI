@@ -1,0 +1,76 @@
+# Кастомные предметы (выдаются через /givemagic или лут)
+custom_items:
+  scrap_coin:
+    name: "Скрап-монета"
+    lore: "§7Валюта пустоши"
+    item: "gold_nugget"
+    custom_name: "§eСкрап-монета"
+  shadow_dust:
+    name: "Пыль теней"
+    lore: "§7Компонент для скрытности"
+    item: "gunpowder"
+    custom_name: "§5Пыль теней"
+  blood_crystal:
+    name: "Кровавый кристалл"
+    lore: "§7Компонент для боевых предметов"
+    item: "redstone"
+    custom_name: "§cКровавый кристалл"
+  void_essence:
+    name: "Эссенция пустоты"
+    lore: "§7Редкий компонент"
+    item: "ender_pearl"
+    custom_name: "§0Эссенция пустоты"
+  ancient_shard:
+    name: "Древний осколок"
+    lore: "§7Выпадает из ВЛАДЫК"
+    item: "nether_star"
+    custom_name: "§6Древний осколок"
+
+# Рецепты (результат = ингредиенты)
+recipes:
+  shadow_armor:
+    result: "leather_chestplate:0:1"
+    result_name: "§5Теневая броня"
+    result_lore: "§7Скрытность +20%§7|§7 Ночь = невидимость 5с"
+    ingredients:
+      - "shadow_dust:0:8"
+      - "leather_chestplate:0:1"
+      - "void_essence:0:2"
+    description: "Теневая броня — скрытность +20%"
+  blood_sword:
+    result: "iron_sword:0:1"
+    result_name: "§cКровавый клинок"
+    result_lore: "§7Урон +25%§7|§7 Вампиризм 10%"
+    ingredients:
+      - "blood_crystal:0:16"
+      - "iron_sword:0:1"
+      - "ancient_shard:0:1"
+    description: "Кровавый клинок — вампиризм"
+  void_pickaxe:
+    result: "diamond_pickaxe:0:1"
+    result_name: "§0Кирка пустоты"
+    result_lore: "§7Добыча +30%§7|§7 Шанс двойного дропа"
+    ingredients:
+      - "void_essence:0:4"
+      - "diamond_pickaxe:0:1"
+      - "ancient_shard:0:1"
+    description: "Кирка пустоты — двойной дроп"
+  survival_ring:
+    result: "golden_apple:0:1"
+    result_name: "§aКольцо выживания"
+    result_lore: "§7Регенерация§7|§7 Сопротивление 10%"
+    ingredients:
+      - "blood_crystal:0:4"
+      - "shadow_dust:0:4"
+      - "golden_apple:0:4"
+      - "void_essence:0:1"
+    description: "Кольцо выживания — регенерация"
+  warp_scroll:
+    result: "paper:0:1"
+    result_name: "§bСвиток варпа"
+    result_lore: "§7ПКМ — телепорт на случайные координаты"
+    ingredients:
+      - "void_essence:0:2"
+      - "paper:0:4"
+      - "shadow_dust:0:4"
+    description: "Свиток варпа — случайный телепорт"

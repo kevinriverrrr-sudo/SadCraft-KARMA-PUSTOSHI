@@ -1,0 +1,54 @@
+name: SadWarps
+version: 1.0.0
+main: sadcraft\warps\Main
+api: 5.0.0
+author: SadCraft
+description: "Система варпов SadCraft"
+
+commands:
+  warp:
+    description: "Телепортироваться на варп"
+    usage: "/warp <name>"
+    permission: sadcraft.warp
+  warps:
+    description: "Список варпов"
+    usage: "/warps"
+    permission: sadcraft.warps
+  setwarp:
+    description: "Создать варп"
+    usage: "/setwarp <name>"
+    permission: sadcraft.warps.admin
+  delwarp:
+    description: "Удалить варп"
+    usage: "/delwarp <name>"
+    permission: sadcraft.warps.admin
+  home:
+    description: "Телепортироваться домой"
+    usage: "/home [name]"
+    permission: sadcraft.home
+  sethome:
+    description: "Установить дом"
+    usage: "/sethome [name]"
+    permission: sadcraft.home
+  delhome:
+    description: "Удалить дом"
+    usage: "/delhome <name>"
+    permission: sadcraft.home
+  homes:
+    description: "Список домов"
+    usage: "/homes"
+    permission: sadcraft.home
+
+permissions:
+  sadcraft.warp:
+    default: true
+    description: "Телепорт на варп"
+  sadcraft.warps:
+    default: true
+    description: "Список варпов"
+  sadcraft.warps.admin:
+    default: op
+    description: "Управление варпами"
+  sadcraft.home:
+    default: true
+    description: "Система домов"

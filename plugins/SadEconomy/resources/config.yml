@@ -1,0 +1,76 @@
+# Конфигурация SadEconomy
+
+currency:
+  name: "Скрап"
+  symbol: "S"
+  start_balance: 100
+
+shop:
+  items_per_page: 9
+  categories:
+    blocks:
+      name: "Блоки"
+      items:
+        - "cobblestone:0:2:10"
+        - "stone:0:2:15"
+        - "oak_planks:0:4:8"
+        - "glass:0:1:20"
+        - "obsidian:0:1:100"
+        - "tnt:0:1:200"
+    tools:
+      name: "Инструменты"
+      items:
+        - "wooden_pickaxe:0:1:30"
+        - "stone_pickaxe:0:1:80"
+        - "iron_pickaxe:0:1:200"
+        - "diamond_pickaxe:0:1:800"
+        - "wooden_sword:0:1:25"
+        - "stone_sword:0:1:70"
+        - "iron_sword:0:1:180"
+        - "diamond_sword:0:1:700"
+    armor:
+      name: "Броня"
+      items:
+        - "leather_helmet:0:1:40"
+        - "iron_helmet:0:1:250"
+        - "diamond_helmet:0:1:1000"
+        - "iron_chestplate:0:1:400"
+        - "diamond_chestplate:0:1:2000"
+    food:
+      name: "Еда"
+      items:
+        - "bread:0:4:15"
+        - "cooked_beef:0:4:30"
+        - "golden_apple:0:1:150"
+        - "enchanted_golden_apple:0:1:2000"
+    combat:
+      name: "Боевое"
+      items:
+        - "bow:0:1:150"
+        - "arrow:0:16:50"
+        - "ender_pearl:0:1:200"
+        - "totem_of_undying:0:1:5000"
+
+sell_prices:
+  cobblestone: 1
+  dirt: 0
+  iron_ingot: 15
+  gold_ingot: 25
+  diamond: 100
+  emerald: 80
+  coal: 3
+  redstone: 8
+  lapis_lazuli: 5
+  netherite_ingot: 500
+  bread: 3
+  cooked_beef: 6
+  bone: 2
+  gunpowder: 5
+  string: 3
+  spider_eye: 2
+  rotten_flesh: 1
+  iron_sword: 30
+  iron_helmet: 40
+  iron_chestplate: 60
+  iron_leggings: 55
+  iron_boots: 35

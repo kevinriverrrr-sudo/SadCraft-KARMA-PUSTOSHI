@@ -1,0 +1,47 @@
+name: SadProtect
+version: 1.0.0
+main: sadcraft\protect\Main
+api: 5.0.0
+author: SadCraft
+description: "Система приватов территорий SadCraft"
+
+commands:
+  claim:
+    description: "Приватить территорию"
+    usage: "/claim [name]"
+    permission: sadcraft.claim
+  unclaim:
+    description: "Снять приват"
+    usage: "/unclaim <name>"
+    permission: sadcraft.claim
+  trust:
+    description: "Добавить игрока в приват"
+    usage: "/trust <name> <player>"
+    permission: sadcraft.claim
+  untrust:
+    description: "Удалить игрока из привата"
+    usage: "/untrust <name> <player>"
+    permission: sadcraft.claim
+  claims:
+    description: "Список приватов"
+    usage: "/claims"
+    permission: sadcraft.claim
+  claiminfo:
+    description: "Информация о привате"
+    usage: "/claiminfo"
+    permission: sadcraft.claiminfo
+
+permissions:
+  sadcraft.claim:
+    default: true
+    description: "Система приватов"
+  sadcraft.claiminfo:
+    default: true
+    description: "Информация о привате"
+  sadcraft.protect.admin:
+    default: op
+    description: "Администрирование приватов"
+  sadcraft.protect.max.5:
+    default: false
+  sadcraft.protect.max.10:
+    default: false

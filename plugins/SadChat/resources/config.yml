@@ -1,0 +1,46 @@
+# Радиус локального чата (блоков)
+local_chat_radius: 50
+
+# Формат сообщений
+formats:
+  global: "§7[§fG§7] §r{prefix}{player}§r§7: §f{message}"
+  local: "§7[§eL§7] §r{prefix}{player}§r§7: §f{message}"
+  trade: "§7[§aT§7] §r{prefix}{player}§r§7: §f{message}"
+  help: "§7[§bH§7] §r{prefix}{player}§r§7: §f{message}"
+  private_send: "§7[§dPM§7] §r§7Ты → §f{recipient}§7: §f{message}"
+  private_receive: "§7[§dPM§7] §r§f{sender} §7→ Ты: §f{message}"
+
+# Префиксы по карме
+karma_prefixes:
+  villain: "§c[Злодей] "
+  outcast: "§7[Отверженный] "
+  wanderer: "§e[Странник] "
+  hero: "§a[Герой] "
+
+# Фильтр мата (простой список)
+bad_words:
+  - "сука"
+  - "блядь"
+  - "хуй"
+  - "пизд"
+  - "ебан"
+  - "ебуч"
+  - "гандон"
+  - "гондон"
+  - "пидор"
+  - "пидар"
+  - "даун"
+  - " retard"
+
+# Замена мата
+replacement: "***"
+
+# Кулдаун между сообщениями (секунды)
+message_cooldown: 2
+
+# Длина сообщения
+max_message_length: 200
+
+# Антиспам (одинаковые сообщения)
+spam_threshold: 3
+spam_mute_duration: 30

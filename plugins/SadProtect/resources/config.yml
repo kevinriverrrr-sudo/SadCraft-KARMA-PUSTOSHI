@@ -1,0 +1,24 @@
+# Конфигурация SadProtect
+
+# Размер привата по умолчанию (радиус в блоках)
+default_radius: 16
+
+# Максимум приватов на игрока (по умолчанию)
+max_claims_default: 2
+
+# Стоимость привата
+claim_cost: 200
+
+# Стоимость за каждый дополнительный блок радиуса
+radius_cost_per_block: 10
+
+# Максимальный радиус привата
+max_radius: 32
+
+# Защищаемые действия
+protected_actions:
+  - "block_break"
+  - "block_place"
+  - "interact"
+  - "container_access"
+  - "damage_entities"

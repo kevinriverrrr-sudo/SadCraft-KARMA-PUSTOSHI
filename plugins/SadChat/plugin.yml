@@ -1,0 +1,36 @@
+name: SadChat
+version: 1.0.0
+main: sadcraft\chat\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore]
+description: "Чат-система SadCraft — каналы, локальный, радио, клановый, форматирование"
+
+commands:
+  chat:
+    description: "Переключить канал чата"
+    usage: "/chat <global|local|trade|help>"
+    permission: sadcraft.chat
+  msg:
+    description: "Личное сообщение"
+    usage: "/msg <player> <message>"
+    permission: sadcraft.msg
+  r:
+    description: "Ответить на ЛС"
+    usage: "/r <message>"
+    permission: sadcraft.msg
+  mutechat:
+    description: "Замутить чат"
+    usage: "/mutechat"
+    permission: sadcraft.chat.admin
+
+permissions:
+  sadcraft.chat:
+    default: true
+    description: "Чат-система"
+  sadcraft.msg:
+    default: true
+    description: "Личные сообщения"
+  sadcraft.chat.admin:
+    default: op
+    description: "Управление чатом"

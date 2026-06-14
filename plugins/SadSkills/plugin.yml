@@ -1,0 +1,22 @@
+name: SadSkills
+version: 1.0.0
+main: sadcraft\skills\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore]
+description: "RPG навыки SadCraft — бой, добыча, выживание, скрытность"
+
+commands:
+  skills:
+    description: "Просмотр навыков"
+    usage: "/skills"
+    permission: sadcraft.skills
+  skillinfo:
+    description: "Информация о навыке"
+    usage: "/skillinfo <skill>"
+    permission: sadcraft.skills
+
+permissions:
+  sadcraft.skills:
+    default: true
+    description: "Система навыков"

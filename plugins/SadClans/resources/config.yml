@@ -1,0 +1,40 @@
+# Конфигурация SadClans
+
+create_cost: 2000
+max_members: 15
+min_name_length: 3
+max_name_length: 16
+tag_length: 3
+
+clan_karma:
+  enemy_kill: 5
+  enemy_death: -3
+  npc_kill: 2
+  tyrant_threshold: -100
+  noble_threshold: 100
+
+bank:
+  start_balance: 0
+  tax_percent: 10
+
+war:
+  duration: 0
+  kill_reward: 50
+  min_members: 3
+
+alliance:
+  max_allies: 3
+
+ranks:
+  leader:
+    name: "Лидер"
+    permissions: ["all"]
+  coleader:
+    name: "Совладелец"
+    permissions: ["invite", "kick", "war", "ally", "bank"]
+  officer:
+    name: "Офицер"
+    permissions: ["invite", "bank"]
+  member:
+    name: "Боец"
+    permissions: []

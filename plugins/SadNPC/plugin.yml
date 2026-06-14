@@ -1,0 +1,26 @@
+name: SadNPC
+version: 1.0.0
+main: sadcraft\npc\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore, SadEconomy]
+description: "Система NPC SadCraft — лут-мобы с 5 тирами сложности"
+
+commands:
+  npcspawn:
+    description: "Спавнить NPC указанного тира"
+    usage: "/npcspawn <tier 1-5>"
+    permission: sadcraft.npc.admin
+  npckill:
+    description: "Убить всех NPC"
+    usage: "/npckill"
+    permission: sadcraft.npc.admin
+  npclist:
+    description: "Список активных NPC"
+    usage: "/npclist"
+    permission: sadcraft.npc.admin
+
+permissions:
+  sadcraft.npc.admin:
+    default: op
+    description: "Управление NPC"

@@ -1,0 +1,37 @@
+name: SadAuction
+version: 1.0.0
+main: sadcraft\auction\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadEconomy]
+description: "Аукцион SadCraft — продажа и ставки на предметы"
+
+commands:
+  ah:
+    description: "Открыть аукцион"
+    usage: "/ah [page]"
+    permission: sadcraft.auction
+  ah sell:
+    description: "Выставить предмет на аукцион"
+    usage: "/ah sell <price>"
+    permission: sadcraft.auction
+  ah bid:
+    description: "Сделать ставку"
+    usage: "/ah bid <id> <price>"
+    permission: sadcraft.auction
+  ah cancel:
+    description: "Снять предмет с аукциона"
+    usage: "/ah cancel <id>"
+    permission: sadcraft.auction
+  ah expired:
+    description: "Просмотреть истёкшие предметы"
+    usage: "/ah expired"
+    permission: sadcraft.auction
+
+permissions:
+  sadcraft.auction:
+    default: true
+    description: "Аукцион"
+  sadcraft.auction.admin:
+    default: op
+    description: "Администрирование аукциона"

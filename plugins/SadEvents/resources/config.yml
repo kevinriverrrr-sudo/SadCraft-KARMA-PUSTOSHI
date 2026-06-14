@@ -1,0 +1,59 @@
+# Интервал автоматических ивентов (секунды)
+auto_event_interval: 600
+
+# Кровавая луна
+bloodmoon:
+  duration: 300
+  mob_spawn_multiplier: 3
+  damage_multiplier: 1.5
+  loot_multiplier: 2.0
+  message_start: "§c§l[КРОВАВАЯ ЛУНА] §r§7Мобы стали сильнее, но лут богаче!"
+  message_end: "§a§l[КРОВАВАЯ ЛУНА] §r§7Кровавая луна закончилась."
+
+# Снабжение (supply drop)
+supply:
+  loot_tiers:
+    1:
+      items:
+        - "iron_ingot:0:8"
+        - "bread:0:16"
+        - "golden_apple:0:2"
+      chance: 0.4
+    2:
+      items:
+        - "diamond:0:4"
+        - "enchanted_golden_apple:0:1"
+        - "tnt:0:4"
+      chance: 0.3
+    3:
+      items:
+        - "netherite_ingot:0:2"
+        - "totem_of_undying:0:1"
+        - "elytra:0:1"
+      chance: 0.05
+  broadcast_radius: 500
+  message: "§e§l[СНАБЖЕНИЕ] §r§7Контейнер с припасами упал на §bX:{x} Z:{z}§7!"
+
+# Метеорит
+meteor:
+  radius: 5
+  loot_items:
+    - "diamond:0:4"
+    - "iron_ingot:0:16"
+    - "gold_ingot:0:8"
+    - "netherite_ingot:0:1"
+  message: "§6§l[МЕТЕОРИТ] §r§7Метеорит упал на §bX:{x} Z:{z}§7! Внутри — редкие ресурсы!"
+
+# Рейд босса
+raid:
+  boss_health: 500
+  boss_damage: 18
+  boss_name: "§c§lХРАНИТЕЛЬ ПУСТОШИ"
+  loot:
+    - "netherite_sword:0:1"
+    - "netherite_chestplate:0:1"
+    - "enchanted_golden_apple:0:3"
+    - "diamond_block:0:8"
+    - "nether_star:0:1"
+  message: "§5§l[РЕЙД] §r§7Хранитель Пустоши появился на §bX:{x} Z:{z}§7!"
+  defeat_message: "§5§l[РЕЙД] §r§f{player} §7убил Хранителя Пустоши!"

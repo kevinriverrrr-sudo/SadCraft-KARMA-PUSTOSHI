@@ -1,0 +1,111 @@
+# Конфигурация SadDonation
+
+# Киты (наборы)
+kits:
+  start:
+    name: "Стартовый"
+    description: "Начальный набор для новичков"
+    permission: ""
+    cooldown: 86400
+    items:
+      - "stone_sword:0:1"
+      - "stone_pickaxe:0:1"
+      - "stone_axe:0:1"
+      - "bread:0:16"
+      - "torch:0:16"
+      - "leather_helmet:0:1"
+      - "leather_chestplate:0:1"
+
+  daily:
+    name: "Ежедневный"
+    description: "Ежедневный бонус"
+    permission: ""
+    cooldown: 86400
+    items:
+      - "iron_ingot:0:4"
+      - "bread:0:8"
+      - "coal:0:8"
+      - "golden_apple:0:1"
+
+  vip:
+    name: "VIP"
+    description: "Набор VIP-игрока"
+    permission: "sadcraft.kit.vip"
+    cooldown: 3600
+    items:
+      - "iron_sword:0:1"
+      - "iron_pickaxe:0:1"
+      - "iron_helmet:0:1"
+      - "iron_chestplate:0:1"
+      - "iron_leggings:0:1"
+      - "iron_boots:0:1"
+      - "golden_apple:0:4"
+      - "bread:0:32"
+      - "ender_pearl:0:4"
+
+  premium:
+    name: "Premium"
+    description: "Набор Premium-игрока"
+    permission: "sadcraft.kit.premium"
+    cooldown: 3600
+    items:
+      - "diamond_sword:0:1"
+      - "diamond_pickaxe:0:1"
+      - "diamond_helmet:0:1"
+      - "diamond_chestplate:0:1"
+      - "diamond_leggings:0:1"
+      - "diamond_boots:0:1"
+      - "golden_apple:0:8"
+      - "enchanted_golden_apple:0:1"
+      - "ender_pearl:0:8"
+      - "tnt:0:4"
+      - "obsidian:0:16"
+
+  legend:
+    name: "Legend"
+    description: "Набор Legend-игрока"
+    permission: "sadcraft.kit.legend"
+    cooldown: 3600
+    items:
+      - "diamond_sword:0:1"
+      - "diamond_pickaxe:0:1"
+      - "diamond_helmet:0:1"
+      - "diamond_chestplate:0:1"
+      - "diamond_leggings:0:1"
+      - "diamond_boots:0:1"
+      - "enchanted_golden_apple:0:3"
+      - "ender_pearl:0:16"
+      - "tnt:0:16"
+      - "obsidian:0:32"
+      - "diamond:0:16"
+      - "emerald:0:32"
+      - "totem_of_undying:0:1"
+
+# Донат-ранги (покупка за внутриигровую валюту)
+ranks:
+  vip:
+    name: "VIP"
+    price: 5000
+    permissions:
+      - "sadcraft.kit.vip"
+      - "sadcraft.warps.admin"
+    description: "Доступ к VIP киту, установка варпов"
+
+  premium:
+    name: "Premium"
+    price: 15000
+    permissions:
+      - "sadcraft.kit.premium"
+      - "sadcraft.warps.admin"
+      - "sadcraft.protect.max.5"
+    description: "Доступ к Premium киту, варпы, 5 приватов"
+
+  legend:
+    name: "Legend"
+    price: 50000
+    permissions:
+      - "sadcraft.kit.legend"
+      - "sadcraft.warps.admin"
+      - "sadcraft.protect.max.10"
+      - "sadcraft.fly"
+    description: "Доступ к Legend киту, варпы, 10 приватов, полёт"

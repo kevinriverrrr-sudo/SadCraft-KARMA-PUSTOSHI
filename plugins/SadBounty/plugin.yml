@@ -1,0 +1,29 @@
+name: SadBounty
+version: 1.0.0
+main: sadcraft\bounty\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadEconomy]
+description: "Доска наград SadCraft — охота за головами"
+
+commands:
+  bounty:
+    description: "Поставить награду за голову"
+    usage: "/bounty <player> <amount>"
+    permission: sadcraft.bounty
+  bounties:
+    description: "Список наград"
+    usage: "/bounties [page]"
+    permission: sadcraft.bounty
+  bountytop:
+    description: "Топ охотников"
+    usage: "/bountytop"
+    permission: sadcraft.bounty
+
+permissions:
+  sadcraft.bounty:
+    default: true
+    description: "Система наград"
+  sadcraft.bounty.admin:
+    default: op
+    description: "Управление наградами"

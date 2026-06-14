@@ -1,0 +1,25 @@
+name: SadEvents
+version: 1.0.0
+main: sadcraft\events\Main
+api: 5.0.0
+author: SadCraft
+depend: [SadCore, SadEconomy]
+description: "Мировые ивенты SadCraft — кровавая луна, метеориты, снабжение, рейды"
+
+commands:
+  event:
+    description: "Информация о текущем ивенте"
+    usage: "/event"
+    permission: sadcraft.event
+  eventstart:
+    description: "Запустить ивент"
+    usage: "/eventstart <bloodmoon|supply|meteor|raid>"
+    permission: sadcraft.event.admin
+
+permissions:
+  sadcraft.event:
+    default: true
+    description: "Ивенты"
+  sadcraft.event.admin:
+    default: op
+    description: "Управление ивентами"

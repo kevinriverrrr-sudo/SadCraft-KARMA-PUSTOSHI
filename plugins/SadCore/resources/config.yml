@@ -1,0 +1,105 @@
+# Конфигурация SadCore
+
+# Система кармы
+karma:
+  start: 0
+  player_kill: -15
+  npc_kill: 5
+  npc_aggressive_kill: 10
+  villain_threshold: -50
+  hero_threshold: 50
+  hero_loot_multiplier: 1.5
+  villain_loot_multiplier: 0.7
+
+# Система лут-зон
+loot_zones:
+  broadcast_interval: 300
+  broadcast_count: 3
+  zone_radius: 30
+  loot_respawn: 600
+
+# Тиры лута
+tiers:
+  1:
+    name: "Бродяга"
+    color: "7"
+    npc_health: 20
+    npc_damage: 2
+    loot_count: 3
+    loot_table:
+      - "cobblestone:0:16:0.8"
+      - "bread:0:4:0.6"
+      - "wooden_sword:0:1:0.3"
+      - "leather_helmet:0:1:0.2"
+      - "iron_ingot:0:2:0.1"
+  2:
+    name: "Разбойник"
+    color: "e"
+    npc_health: 40
+    npc_damage: 5
+    loot_count: 4
+    loot_table:
+      - "iron_sword:0:1:0.5"
+      - "iron_helmet:0:1:0.4"
+      - "iron_chestplate:0:1:0.3"
+      - "golden_apple:0:2:0.3"
+      - "iron_ingot:0:8:0.5"
+      - "bow:0:1:0.4"
+      - "arrow:0:16:0.6"
+  3:
+    name: "Рыцарь"
+    color: "6"
+    npc_health: 80
+    npc_damage: 8
+    loot_count: 5
+    loot_table:
+      - "diamond_sword:0:1:0.3"
+      - "diamond_helmet:0:1:0.2"
+      - "diamond_chestplate:0:1:0.15"
+      - "ender_pearl:0:4:0.4"
+      - "golden_apple:0:4:0.5"
+      - "obsidian:0:8:0.4"
+      - "redstone:0:16:0.5"
+  4:
+    name: "Демон"
+    color: "c"
+    npc_health: 150
+    npc_damage: 14
+    loot_count: 6
+    loot_table:
+      - "diamond_sword:0:1:0.5"
+      - "diamond_chestplate:0:1:0.3"
+      - "diamond_leggings:0:1:0.25"
+      - "diamond_boots:0:1:0.25"
+      - "enchanted_golden_apple:0:1:0.1"
+      - "tnt:0:8:0.4"
+      - "diamond:0:8:0.5"
+      - "emerald:0:16:0.4"
+  5:
+    name: "ВЛАДЫКА"
+    color: "5"
+    npc_health: 300
+    npc_damage: 22
+    loot_count: 8
+    loot_table:
+      - "netherite_sword:0:1:0.2"
+      - "netherite_helmet:0:1:0.15"
+      - "netherite_chestplate:0:1:0.1"
+      - "netherite_leggings:0:1:0.1"
+      - "netherite_boots:0:1:0.1"
+      - "enchanted_golden_apple:0:3:0.3"
+      - "netherite_ingot:0:4:0.2"
+      - "elytra:0:1:0.05"
+      - "totem_of_undying:0:1:0.1"
+      - "diamond_block:0:4:0.3"
+      - "nether_star:0:1:0.03"
+
+# Случайный спавн
+random_spawn:
+  min_distance: 500
+  max_distance: 3000
+
+# Рассылка координат
+broadcast:
+  prefix: "[ЛОУТ]"
+  format: "[ЛОУТ] Тир {tier} - {name} | X: {x} Z: {z} | HP: {hp}"

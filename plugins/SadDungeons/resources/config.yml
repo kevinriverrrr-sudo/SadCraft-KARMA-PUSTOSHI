@@ -1,0 +1,89 @@
+# Подземелья по тирам
+dungeons:
+  1:
+    name: "Забытые катакомбы"
+    rooms: 5
+    npc_count: 8
+    npc_tier: 1
+    loot_table:
+      - "iron_ingot:0:8:0.8"
+      - "bread:0:8:0.6"
+      - "iron_sword:0:1:0.3"
+      - "golden_apple:0:1:0.1"
+    boss_loot:
+      - "diamond:0:4:0.5"
+      - "iron_chestplate:0:1:0.4"
+      - "enchanted_golden_apple:0:1:0.05"
+    entry_cost: 50
+  2:
+    name: "Тёмные пещеры"
+    rooms: 7
+    npc_count: 12
+    npc_tier: 2
+    loot_table:
+      - "iron_ingot:0:16:0.7"
+      - "golden_apple:0:2:0.4"
+      - "diamond:0:2:0.2"
+      - "bow:0:1:0.3"
+    boss_loot:
+      - "diamond_sword:0:1:0.4"
+      - "diamond_helmet:0:1:0.2"
+      - "ender_pearl:0:4:0.5"
+    entry_cost: 150
+  3:
+    name: "Крепость теней"
+    rooms: 10
+    npc_count: 16
+    npc_tier: 3
+    loot_table:
+      - "diamond:0:4:0.5"
+      - "golden_apple:0:4:0.4"
+      - "ender_pearl:0:2:0.3"
+      - "obsidian:0:8:0.4"
+    boss_loot:
+      - "diamond_chestplate:0:1:0.3"
+      - "enchanted_golden_apple:0:1:0.2"
+      - "tnt:0:8:0.5"
+    entry_cost: 400
+  4:
+    name: "Огненная бездна"
+    rooms: 12
+    npc_count: 20
+    npc_tier: 4
+    loot_table:
+      - "diamond:0:8:0.5"
+      - "enchanted_golden_apple:0:1:0.2"
+      - "tnt:0:4:0.4"
+      - "emerald:0:8:0.4"
+    boss_loot:
+      - "netherite_ingot:0:2:0.2"
+      - "diamond_block:0:2:0.3"
+      - "totem_of_undying:0:1:0.1"
+    entry_cost: 1000
+  5:
+    name: "Цитадель ВЛАДЫКИ"
+    rooms: 15
+    npc_count: 25
+    npc_tier: 5
+    loot_table:
+      - "netherite_ingot:0:2:0.3"
+      - "enchanted_golden_apple:0:2:0.3"
+      - "diamond_block:0:2:0.3"
+      - "totem_of_undying:0:1:0.1"
+    boss_loot:
+      - "netherite_sword:0:1:0.15"
+      - "netherite_chestplate:0:1:0.1"
+      - "elytra:0:1:0.05"
+      - "nether_star:0:1:0.08"
+    entry_cost: 3000
+
+# Настройки подземелий
+settings:
+  # Кулдаун между подземельями (секунды)
+  cooldown: 300
+  # Максимум игроков в подземелье
+  max_party: 4
+  # Таймаут подземелья (секунды)
+  timeout: 1800
+  # Время на комнату (секунды)
+  room_timeout: 120

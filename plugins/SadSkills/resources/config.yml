@@ -1,0 +1,48 @@
+# Опыт за действия
+xp:
+  combat:
+    kill_mob: 15
+    kill_player: 30
+    kill_npc: 40
+  mining:
+    stone: 1
+    iron_ore: 5
+    gold_ore: 8
+    diamond_ore: 15
+    emerald_ore: 12
+    nether_quartz_ore: 4
+    lapis_ore: 6
+    obsidian: 10
+  survival:
+    eat: 3
+    fish: 8
+    breed_animal: 5
+    craft_item: 2
+  stealth:
+    avoid_detection: 10
+    backstab: 25
+
+# Формула уровня: xp_needed = base * (level ^ multiplier)
+leveling:
+  base_xp: 100
+  multiplier: 1.5
+  max_level: 50
+
+# Бонусы за уровни
+perks:
+  combat:
+    10: {damage_bonus: 0.1}
+    25: {damage_bonus: 0.25}
+    50: {damage_bonus: 0.5, crit_chance: 0.05}
+  mining:
+    10: {fortune_bonus: 1}
+    25: {fortune_bonus: 2, speed_bonus: 0.1}
+    50: {fortune_bonus: 3, speed_bonus: 0.2, double_ore_chance: 0.1}
+  survival:
+    10: {heal_bonus: 0.1}
+    25: {heal_bonus: 0.25, reduced_hunger: 0.1}
+    50: {heal_bonus: 0.5, reduced_hunger: 0.2, resistance_chance: 0.05}
+  stealth:
+    10: {move_speed: 0.05}
+    25: {move_speed: 0.1, backstab_damage: 1.5}
+    50: {move_speed: 0.2, backstab_damage: 2.0, invis_duration: 5}

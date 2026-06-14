@@ -1,0 +1,22 @@
+# Binaries
+bin/
+PocketMine-MP.phar
+DevTools.phar
+
+# Runtime data
+worlds/
+plugin_data/
+
+# Server logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
