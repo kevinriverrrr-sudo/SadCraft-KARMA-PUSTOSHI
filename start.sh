@@ -12,4 +12,4 @@ echo "  SADCRAFT — КАРМА ПУСТОШИ"
 echo "  Rogue-Anarchy Bedrock Server"
 echo "=========================================="
 
-exec "$DIR/bin/php7/bin/php" -d zend_extension="$DIR/bin/php7/lib/php/extensions/no-debug-zts-20240924/opcache.so" PocketMine-MP.phar "$@"
+exec "$DIR/bin/php7/bin/php" PocketMine-MP.phar "$@"

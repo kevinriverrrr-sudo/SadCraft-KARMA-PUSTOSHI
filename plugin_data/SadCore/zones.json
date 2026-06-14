@@ -1,0 +1,390 @@
+{
+    "zones": [
+        {
+            "tier": 1,
+            "x": -67,
+            "z": 1296,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 1,
+            "x": 522,
+            "z": 1292,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 1,
+            "x": 757,
+            "z": -1122,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 1,
+            "x": -66,
+            "z": -417,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 1,
+            "x": -1147,
+            "z": 20,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 1,
+            "x": 1731,
+            "z": 0,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 1,
+            "x": -1251,
+            "z": -1390,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": 622,
+            "z": 109,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": -1098,
+            "z": -1406,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": -880,
+            "z": 663,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": -113,
+            "z": -1078,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": 2054,
+            "z": 436,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": 636,
+            "z": -382,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": 1800,
+            "z": 482,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": -649,
+            "z": -1332,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 2,
+            "x": 393,
+            "z": 740,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": 1045,
+            "z": 1290,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": -2070,
+            "z": -965,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": -1526,
+            "z": 1068,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": 459,
+            "z": -1502,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": 0,
+            "z": -1326,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": -104,
+            "z": -848,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": -880,
+            "z": -663,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": -1399,
+            "z": -348,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": 1626,
+            "z": -345,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": 830,
+            "z": 318,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 3,
+            "x": -982,
+            "z": -948,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -893,
+            "z": 804,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -1316,
+            "z": 377,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": 1879,
+            "z": -1085,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": 938,
+            "z": -1159,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -794,
+            "z": -1560,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -1442,
+            "z": 496,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -1814,
+            "z": -1224,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": 1018,
+            "z": -564,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": 1093,
+            "z": -1972,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": 1470,
+            "z": -1881,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": 950,
+            "z": -423,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -972,
+            "z": -1684,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 4,
+            "x": -79,
+            "z": -1508,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -915,
+            "z": -915,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -538,
+            "z": 2010,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -212,
+            "z": 1731,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 1126,
+            "z": -1874,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 1034,
+            "z": -2121,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 2219,
+            "z": -553,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 1138,
+            "z": 1264,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -1247,
+            "z": -65,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -2661,
+            "z": 0,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -1744,
+            "z": -533,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 796,
+            "z": 916,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -356,
+            "z": -2248,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": -2333,
+            "z": -1347,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 2216,
+            "z": 1081,
+            "active": true,
+            "last_loot": 0
+        },
+        {
+            "tier": 5,
+            "x": 575,
+            "z": -1771,
+            "active": true,
+            "last_loot": 0
+        }
+    ],
+    "generated": true
+}

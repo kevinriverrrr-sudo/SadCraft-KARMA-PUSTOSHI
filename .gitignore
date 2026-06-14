@@ -1,12 +1,3 @@
-# Binaries
-bin/
-PocketMine-MP.phar
-DevTools.phar
-
-# Runtime data
-worlds/
-plugin_data/
-
 # Server logs
 *.log
 logs/
@@ -20,3 +11,12 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Temporary / cache
+crashdumps/
+pocketmine_src/
+server_console.fifo
+server.pid
+server_keeper.py
+run.sh
+start_persistent.sh
